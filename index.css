@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto ;
+    margin-top: 10px;
+    padding: 20px ;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 600;   
+    background-color: darkblue;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+p {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 29px;
+}
+
+.quote {
+    display: none;
+}
+
+#btn{
+    border: 2px solid royalblue;
+    background-color: white;
+    padding: 18px;
+    width: 140px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: firebrick;
+    font-weight: 400;
+    margin: 5% 40%;
+} 

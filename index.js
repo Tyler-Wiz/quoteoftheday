@@ -10,9 +10,6 @@ const morningQuote = ['The Pessimist Sees Difficulty In Every Opportunity. The O
 const afternoonQuote = ['It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.” – Vince Lombardi', 'Whether You Think You Can Or Think You Can’t, You’re Right. – Henry Ford', 'The Man Who Has Confidence In Himself Gains The Confidence Of Others. – Hasidic Proverb'];
 
 const eveningQuote = ['Imagine Your Life Is Perfect In Every Respect; What Would It Look Like? – Brian Tracy', 'Creativity Is Intelligence Having Fun.” – Albert Einstein (Try Again tomorrow)',  'To See What Is Right And Not Do It Is A Lack Of Courage.” – Confucius'];
-
-randomEvening = eveningQuote[Math.floor(Math.random() * eveningQuote.length)]
-randomAfternoon = afternoonQuote[Math.floor(Math.random() * afternoonQuote.length)]
  
 function morning(){
     let mfortune = morningQuote[Math.floor(Math.random() * morningQuote.length)];

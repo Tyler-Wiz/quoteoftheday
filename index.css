@@ -27,9 +27,13 @@ p {
     font-size: 29px;
 }
 
+/* Quote */
+
 .quote {
     display: none;
 }
+
+/* button  */
 
 #btn{
     border: 2px solid royalblue;

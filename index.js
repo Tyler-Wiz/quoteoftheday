@@ -14,6 +14,7 @@ const afternoonQuote = ['It’s Not Whether You Get Knocked Down, It’s Whether
 const eveningQuote = ['Imagine Your Life Is Perfect In Every Respect; What Would It Look Like? – Brian Tracy', 'Creativity Is Intelligence Having Fun.” – Albert Einstein (Try Again tomorrow)',  'To See What Is Right And Not Do It Is A Lack Of Courage.” – Confucius'];
 
 // functions pick random quote from the array morningQuote//
+ 
 function morning(){
     let mfortune = morningQuote[Math.floor(Math.random() * morningQuote.length)];
     return mfortune 

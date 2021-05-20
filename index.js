@@ -38,7 +38,7 @@ function finalQuote(){
           greeting.textContent = "Good morning, How are you doing today? ";
           quote.style.display = 'block'; 
           quote.textContent = morning();   //displays function with random quotes in HTML of selected ID//
-     } else if(time > 12 && time <= 18){
+     } else if(time => 12 && time <= 18){
          greeting.style.display = 'block';  // displays hidden greeting h2 tag//
          greeting.textContent = "Good Afternoon, How is your day going? ";
          quote.style.display = 'block';  

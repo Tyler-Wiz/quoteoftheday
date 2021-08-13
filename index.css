@@ -1,30 +1,48 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-size: 10px;
+}
+
+:root {
+    --primary:#02031a;
+    --secondary:#7476d6;
+    --mybg:#4e4e4e;
 }
 
 body{
-    margin: 0 auto ;
-    margin-top: 10px;
-    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto ;
     width: 50%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: 2rem;
     font-weight: 600;   
-    background-color: darkblue;
+    color: white;
+    text-align: center;
 }
 
-h2 {
-    text-align: center;
-    color: white;
-    font-size: 26px;
-    font-weight: 900;
+.main{
+    background-color: var(--mybg);
+    max-width: 40rem;
+    border: 2px solid rgb(207, 206, 206);
+    margin-top: 5rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 2px 1px 1px whitesmoke;
+}
+
+h1{
+    font-size: 1.8rem;
+    color: rgb(247, 237, 109);
 }
 
 p {
     text-align: center;
-    color: yellowgreen;
-    font-size: 29px;
+    
+    font-size: 2rem;
 }
 
 /* Quote */
@@ -35,14 +53,12 @@ p {
 
 /* button  */
 
-#btn{
-    border: 2px solid royalblue;
-    background-color: white;
+#btn {
+    border: none;
+    background-image: linear-gradient(45deg, var(--secondary), var(--primary));
     padding: 18px;
-    width: 140px;
     border-radius: 5px;
     cursor: pointer;
-    color: firebrick;
+    color: white;
     font-weight: 400;
-    margin: 5% 40%;
 } 
